@@ -22,7 +22,7 @@ if(isset($_POST['nome']) && isset($_POST['email'])){
         //$mail->SMTPDebug = 2;
         $mail->SMTPAuth     = true; //Habilita a autenticação SMTP
         $mail->Username     = 'kaiords.14@gmail.com';
-        $mail->Password     = 'caio12345%';
+        $mail->Password     = '';
         // Criptografia do envio SSL também é aceito
         $mail->SMTPSecure   = 'tls';
         // Informações específicadas pelo Google
