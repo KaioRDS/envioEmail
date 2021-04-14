@@ -1,0 +1,10 @@
+.form-email{
+    width: 300px;
+    margin-top: 100px;
+    padding: 5px;
+    background-color: #DCDCDC;
+}
+.form-email-input{
+    width: 100%;
+    padding: 5px;
+}
