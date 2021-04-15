@@ -13,8 +13,5 @@ $('#submit-email').click(function (e) {
             msg : msg
         },
         dataType: "json",
-        success: function (response) {
-            alert(response.resposta);
-        }
     });
 });
