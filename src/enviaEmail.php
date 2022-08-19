@@ -23,7 +23,7 @@ if(isset($_POST['nome']) && !empty($_POST['nome'])){
             $mail->SMTPSecure = 'ssl';  // SSL REQUERIDO pelo GMail
             $mail->Host = 'smtp.gmail.com'; // SMTP utilizado
             $mail->Port = 465; 
-            $mail->Username = 'kaiords.14@gmail.com';
+            $mail->Username = '';
             $mail->Password = '';
             $mail->SetFrom('kaiords.14@gmail.com', 'caioRS');
             $mail->addAddress($email,'qualquer coisa que quiser');
